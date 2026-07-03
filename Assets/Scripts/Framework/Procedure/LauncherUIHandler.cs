@@ -9,6 +9,7 @@ using GameFrameX.Startup.Runtime;
 using GameFrameX.UI.Runtime;
 using Unity.Startup;
 using UnityEngine;
+using FairyGUI;
 
 namespace GameFrameX.Startup.Application
 {

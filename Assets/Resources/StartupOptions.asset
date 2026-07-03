@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5a8ef85de7c4ef39312f2770df4b0e, type: 3}
   m_Name: StartupOptions
   m_EditorClassIdentifier: 
+  GameFrameXApiKey: 
+  GameFrameXAppId: 
+  GameFrameXAppSecret: 
+  GamePlayMode: 0
   GlobalInfoUrls:
   - http://127.0.0.1:20808/api/GameGlobalInfo/GetInfo
   MaxAttemptsPerUrl: 3
@@ -19,7 +23,7 @@ MonoBehaviour:
   HotfixAssemblyName: Unity.Hotfix
   HotfixEntryTypeName: Hotfix.HotfixLauncher
   HotfixEntryMethodName: Main
-  PackageName: 
-  Channel: 
-  SubChannel: 
+  PackageName: com.ALianBlank.GFX
+  Channel: default
+  SubChannel: default
   LauncherUIResName: UI/UILauncher
