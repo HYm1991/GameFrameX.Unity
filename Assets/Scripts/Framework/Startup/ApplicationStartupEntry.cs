@@ -36,7 +36,9 @@ namespace GameFrameX.Startup.Application
 #if ENABLE_UI_UGUI
                 startupOptions.LauncherUIResName = "UI/UILauncher/UGUI/UILauncher";
 #endif
-
+#if ENABLE_UI_FAIRYGUI
+                startupOptions.LauncherUIResName = "UI/UILauncher";
+#endif
                 await UniTask.DelayFrame(10);
                 var result = await StartupRunner.Run(startupOptions, new ApplicationStartupUIHandler(), new ApplicationHotfixLauncher());
 
