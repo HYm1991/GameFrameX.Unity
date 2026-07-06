@@ -20,6 +20,7 @@ MonoBehaviour:
   - http://127.0.0.1:20808/api/GameGlobalInfo/GetInfo
   MaxAttemptsPerUrl: 3
   RetryDelayMs: 3000
+  SkipRemoteStartupRequests: 1
   HotfixAssemblyName: Unity.Hotfix
   HotfixEntryTypeName: Hotfix.HotfixLauncher
   HotfixEntryMethodName: Main
